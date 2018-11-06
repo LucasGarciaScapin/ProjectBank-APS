@@ -3,29 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package appbanco;
+package ProjetoBanco;
 
 /**
- *
+ * @author Lucas Garcia
  * @author Lennox
  */
 public class ContaCorrente extends Conta {
-    private int Limite;
+    private int limite;
     
     //Construtor da ContaCorrente sem limite
-    public ContaCorrente(String CPF, String NomeCliente, String NumeroConta, int Saldo) {
-        super(CPF, NomeCliente, NumeroConta, Saldo);
+    public ContaCorrente(String cpf, String nomeCliente, int numeroConta, int saldo) {
+        super(cpf, nomeCliente, numeroConta, saldo);
     }
         
     //Construtor da ContaCorrente com limite
-    public ContaCorrente(String CPF, String NomeCliente, String NumeroConta, int Saldo, int Limite) {
-        super(CPF, NomeCliente, NumeroConta, Saldo);
-        this.Limite = Limite;
+    public ContaCorrente(String cpf, String nomeCliente, int numeroConta, int saldo, int limite) {
+        super(cpf, nomeCliente, numeroConta, saldo);
+        this.limite = limite;
     }
     
     //Método pra ver se a conta tem limite
     public boolean usandoLimite(){
-        if(Limite != 0){
+        if(limite != 0){
             return true;
         } else {
             return false;
@@ -34,7 +34,7 @@ public class ContaCorrente extends Conta {
     
     @Override
     public boolean sacar(int valorSacado){
-        if(valorSacado < Limite){
+        if(valorSacado < limite){
             return true;
         } else {
             return false;
@@ -44,6 +44,6 @@ public class ContaCorrente extends Conta {
     @Override
     public String toString(){
         return super.toString()
-            + "Limite: " + Limite;
+            + "Limite: " + limite;
     }
 }

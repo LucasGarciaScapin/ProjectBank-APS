@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package appbanco;
+package ProjetoBanco;
 
 /**
- *
+ * @author Lucas Garcia
  * @author Lennox
  */
 public class ContaPoupanca extends Conta {
     
-    public ContaPoupanca (String CPF, String NomeCliente, String NumeroConta, int Saldo){
-        super(CPF, NomeCliente, NumeroConta, Saldo);
+    public ContaPoupanca (String cpf, String nomeCliente, int numeroConta, int saldo){
+        super(cpf, nomeCliente, numeroConta, saldo);
     }
     
     
