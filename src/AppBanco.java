@@ -9,6 +9,13 @@ package appbanco;
  *
  * @author Lennox
  */
-public class ContaEspecial extends ContaCorrente {
+public class AppBanco {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }
