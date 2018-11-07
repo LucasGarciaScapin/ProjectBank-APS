@@ -3,7 +3,7 @@ package ProjetoBanco;
 /**
  * Projeto Banco
  * @author Lucas Garcia
- * @author Lennox
+ * @author Júlio "Lennox" Vinícius
  */
 public abstract class Conta {
     private String nomeCliente;
@@ -63,6 +63,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
 //Metodo para sacar dinheiro.
 public boolean sacar(int valorSacado){
     if (valorSacado < saldo){
+        saldo =- valorSacado;
         return true;
     } else {
         return false;
@@ -73,6 +74,7 @@ public boolean sacar(int valorSacado){
 //Metodo para deposito
 public boolean depositar (int valorDepositado){
     if(valorDepositado > 0){
+        saldo =+ valorDepositado;
         return true;
     } else {
         return false;

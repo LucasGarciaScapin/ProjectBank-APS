@@ -7,7 +7,7 @@ package ProjetoBanco;
 
 /**
  * @author Lucas Garcia
- * @author Lennox
+ * @author Júlio "Lennox" Vinícius
  */
 public class ContaEspecial extends ContaCorrente {
 
