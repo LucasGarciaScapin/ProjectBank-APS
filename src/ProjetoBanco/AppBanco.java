@@ -11,12 +11,9 @@ package ProjetoBanco;
  */
 public class AppBanco {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        // testando as config do git
+
+
     }
     
 }

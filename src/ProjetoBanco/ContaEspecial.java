@@ -11,11 +11,28 @@ package ProjetoBanco;
  */
 public class ContaEspecial extends ContaCorrente {
 
-    public ContaEspecial(String cpf, String nomeCliente, int numeroConta, int saldo) {
+    private String nomeGerente;
+
+    public ContaEspecial(String cpf, String nomeCliente, int numeroConta, double saldo, String nomeGerente) {
         super(cpf, nomeCliente, numeroConta, saldo);
+        this.nomeGerente = nomeGerente;
     }
 
-    public ContaEspecial(String cpf, String nomeCliente, int numeroConta, int saldo, int limite) {
+    public ContaEspecial(String cpf, String nomeCliente, int numeroConta, double saldo, int limite, String nomeGerente) {
         super(cpf, nomeCliente, numeroConta, saldo, limite);
+        this.nomeGerente = nomeGerente;
+    }
+
+    public String getNomeGerente() {
+        return nomeGerente;
+    }
+
+    public void setNomeGerente(String nomeGerente) {
+        this.nomeGerente = nomeGerente;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nGerente responsavel: " + nomeGerente;
     }
 }

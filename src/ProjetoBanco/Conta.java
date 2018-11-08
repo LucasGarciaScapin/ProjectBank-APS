@@ -9,18 +9,11 @@ public abstract class Conta {
     private String nomeCliente;
     private String cpf;
     private int numeroConta;
-    private int saldo;
+    private double saldo;
 
-//Contrutor default enviadado
-public Conta (){
-    this.cpf = "Numero de CPF não definido";
-    this.nomeCliente = "Nome do cliente não definido";
-    this.numeroConta = 0;
-    this.saldo = 0;
-}
 
 //Construtor com valores
-public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
+public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     this.cpf = cpf;
     this.nomeCliente = nomeCliente;
     this.numeroConta = numeroConta;
@@ -40,7 +33,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
         return cpf;
     }
 
-    public int getSaldo() {
+    public double getSaldo() {
         return saldo;
     }
 
@@ -48,7 +41,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
         this.nomeCliente = nomeCliente;
     }
     
-    private void setCPF(String cpf) {
+    private void setCpf(String cpf) {
         this.cpf = cpf;
     }
     
@@ -56,14 +49,14 @@ public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
         this.numeroConta = numeroConta;
     }
 
-    private void setSaldo(int saldo) {
+    protected void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
 //Metodo para sacar dinheiro.
-public boolean sacar(int valorSacado){
+public boolean sacar(double valorSacado){
     if (valorSacado < saldo){
-        saldo =- valorSacado;
+        saldo -= valorSacado;
         return true;
     } else {
         return false;
@@ -72,9 +65,9 @@ public boolean sacar(int valorSacado){
 //Provavelmente vamos ter que usar esse boolean no main pra alterar o saldo da conta
 
 //Metodo para deposito
-public boolean depositar (int valorDepositado){
+public boolean depositar (double valorDepositado){
     if(valorDepositado > 0){
-        saldo =+ valorDepositado;
+        saldo += valorDepositado;
         return true;
     } else {
         return false;
