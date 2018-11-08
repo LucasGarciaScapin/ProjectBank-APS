@@ -25,13 +25,9 @@ public class ContaCorrente extends Conta {
     
     //Método pra ver se a conta tem limite
     public boolean usandoLimite(){
-        if(limite != 0){
-            return true;
-        } else {
-            return false;
-        }
+        return limite < 0;
     }
-    
+
     @Override
     public boolean sacar(int valorSacado){
         if(valorSacado < limite){
@@ -40,7 +36,7 @@ public class ContaCorrente extends Conta {
             return false;
         }
     }
-    
+
     @Override
     public String toString(){
         return super.toString()

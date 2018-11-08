@@ -6,20 +6,14 @@ package ProjetoBanco;
  * @author Lennox
  */
 public abstract class Conta {
+
     private String nomeCliente;
     private String cpf;
     private int numeroConta;
     private int saldo;
 
-//Contrutor default enviadado
-public Conta (){
-    this.cpf = "Numero de CPF não definido";
-    this.nomeCliente = "Nome do cliente não definido";
-    this.numeroConta = 0;
-    this.saldo = 0;
-}
-
-//Construtor com valores
+    /** Construtor
+     * Com parametros cpf, nomeCliente, numeroConta, saldo */
 public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
     this.cpf = cpf;
     this.nomeCliente = nomeCliente;
@@ -27,7 +21,6 @@ public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
     this.saldo = saldo;
 }
 
-//Getters e Setters
     public int getNumeroConta() {
         return numeroConta;
     }
@@ -48,7 +41,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
         this.nomeCliente = nomeCliente;
     }
     
-    private void setCPF(String cpf) {
+    private void setCpf(String cpf) {
         this.cpf = cpf;
     }
     
