@@ -2,7 +2,7 @@ package ProjetoBanco;
 
 import java.util.ArrayList;
 
-/**@author Junior 
+/**@author Junior Gudaites
  * @author Lucas Garcia
  */
 
