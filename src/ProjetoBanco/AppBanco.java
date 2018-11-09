@@ -5,6 +5,8 @@
  */
 package ProjetoBanco;
 
+import java.util.Scanner;
+
 /**
  * @author Lucas Garcia
  * @author Júlio "Lennox" Vinícius
@@ -13,7 +15,6 @@ public class AppBanco {
 
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
-
 
     }
     

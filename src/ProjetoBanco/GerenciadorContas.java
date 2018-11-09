@@ -55,37 +55,36 @@ public class GerenciadorContas {
         } return null;
     }
 
-    public boolean transferirValor(int numeroContaOrigem, int numeroContaDestino, double valor){
+    public boolean transferirValor(int numeroContaOrigem, int numeroContaDestino, double valor) {
 
         Conta contaOrigem = null;
         Conta contaDestino = null;
 
         for (Conta c : list) {
-            if(c.getNumeroConta() == numeroContaOrigem){
+            if (c.getNumeroConta() == numeroContaOrigem) {
                 contaOrigem = c;
             }
-            if(c.getNumeroConta() == numeroContaDestino){
+            if (c.getNumeroConta() == numeroContaDestino) {
                 contaDestino = c;
             }
         }
-        if(contaOrigem != null && contaDestino != null){
-            contaOrigem.sacar(valor);
+        //TODO revisar essa nova logica
+        if (contaOrigem != null && contaDestino != null && contaOrigem.sacar(valor) == true) {
             contaDestino.depositar(valor);
             return true;
+        } else {
+            return false;
         }
-        return false;
     }
 
-
+    //TODO revisar essa nova logica
     public boolean sacar(int numeroConta, double valorSacado){
         for (Conta c : list) {
             if(c.getNumeroConta() == numeroConta){
-                if(c.sacar(valorSacado)){
                     c.sacar(valorSacado);
                     return true;
                 }
-            }
-        }return false;
+            }return false;
     }
 
     public boolean depositar(int numeroConta, double valorDeposito){
