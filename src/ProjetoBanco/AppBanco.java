@@ -12,6 +12,7 @@ package ProjetoBanco;
 public class AppBanco {
 
     public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
 
 
     }

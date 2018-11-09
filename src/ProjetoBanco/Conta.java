@@ -11,16 +11,18 @@ public abstract class Conta {
     private int numeroConta;
     private double saldo;
 
+    //Construtor default porque sim, porque precisa, porque ele pede na APS, e dessa vez sem viadagem
+    public conta () {}
 
-//Construtor com valores
-public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
-    this.cpf = cpf;
-    this.nomeCliente = nomeCliente;
-    this.numeroConta = numeroConta;
-    this.saldo = saldo;
-}
+    //Construtor com valores
+    public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
+        this.cpf = cpf;
+        this.nomeCliente = nomeCliente;
+        this.numeroConta = numeroConta;
+        this.saldo = saldo;
+    }
 
-//Getters e Setters
+    //Getters e Setters
     public int getNumeroConta() {
         return numeroConta;
     }
@@ -49,37 +51,36 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
         this.numeroConta = numeroConta;
     }
 
-    protected void setSaldo(double saldo) {
+    private void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
-//Metodo para sacar dinheiro.
-public boolean sacar(double valorSacado){
-    if (valorSacado < saldo){
-        saldo -= valorSacado;
-        return true;
-    } else {
-        return false;
+    //Metodo para sacar dinheiro.
+    public boolean sacar(double valorSacado){
+        if(valorSacado > 0) {
+            saldo -= valorSacado;
+            return true;
+        } else {
+            return false;
+        }
     }
-}
-//Provavelmente vamos ter que usar esse boolean no main pra alterar o saldo da conta
 
-//Metodo para deposito
-public boolean depositar (double valorDepositado){
-    if(valorDepositado > 0){
-        saldo += valorDepositado;
-        return true;
-    } else {
-        return false;
+    //Metodo para deposito
+    public boolean depositar (double valorDepositado){
+        if(valorDepositado > 0){
+            saldo += valorDepositado;
+            return true;
+        } else {
+            return false;
+        }
     }
-}
 
-@Override
-public String toString (){
-    return "CPF do Cliente: " + cpf
-        + "\nNome do Cliente: " + nomeCliente
-        + "\nNumero da Conta: " + numeroConta
-        + "\nSaldo da Conta: " + saldo;
-}
-
+    //toString
+    @Override
+    public String toString (){
+        return "CPF do Cliente: " + cpf
+            + "\nNome do Cliente: " + nomeCliente
+            + "\nNumero da Conta: " + numeroConta
+            + "\nSaldo da Conta: " + saldo;
+    }
 }
