@@ -1,6 +1,9 @@
 package ProjetoBanco;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
 
 /**@author Junior Gudaites
  * @author Lucas Garcia
@@ -8,7 +11,12 @@ import java.util.ArrayList;
 
 public class GerenciadorContas {
 
-    ArrayList<Conta> list;
+    private ArrayList<Conta> list;
+
+    // Esse get existe para realizar testes unitarios
+    public ArrayList<Conta> getList() {
+        return list;
+    }
 
     public GerenciadorContas(){
         list = new ArrayList<>();
@@ -19,11 +27,7 @@ public class GerenciadorContas {
     }
 
     public void removerConta(int numeroConta) {
-        for (Conta c : list) {
-            if (c.getNumeroConta() == numeroConta) {
-                list.remove(c);
-            }
-        }
+        list.removeIf(conta -> conta.getNumeroConta() == numeroConta);
     }
 
     public String buscarContasEpeciais(){
@@ -69,7 +73,8 @@ public class GerenciadorContas {
             }
         }
         //TODO revisar essa nova logica
-        if (contaOrigem != null && contaDestino != null && contaOrigem.sacar(valor) == true) {
+        if (contaOrigem != null && contaDestino != null && contaOrigem.sacar(valor)) {
+            contaOrigem.sacar(valor);
             contaDestino.depositar(valor);
             return true;
         } else {

@@ -31,13 +31,13 @@ public class ContaCorrente extends Conta {
     //Reescrita do metodo "sacar" usando limite
     @Override
     public boolean sacar(double valorSaca){
-        if(valorSaca < super.getSaldo() + limite){
-            super.sacar;
+        if(valorSaca < (super.getSaldo() + limite)){
+            super.sacar(valorSaca);
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
+
 
     @Override
     public String toString(){

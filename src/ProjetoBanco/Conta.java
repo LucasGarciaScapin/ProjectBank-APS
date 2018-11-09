@@ -11,9 +11,6 @@ public abstract class Conta {
     private int numeroConta;
     private double saldo;
 
-    //Construtor default porque sim, porque precisa, porque ele pede na APS, e dessa vez sem viadagem
-    public conta () {}
-
     //Construtor com valores
     public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
         this.cpf = cpf;
