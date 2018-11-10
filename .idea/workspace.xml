@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0c7b5c7-a9ad-4ffe-b5f2-a4d3238a531a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" afterDir="false" />
+    <list default="true" id="dcc22f93-37c7-4c6e-8e43-a5c6a3214083" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/AppBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/AppBanco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaCorrente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaPoupanca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/GerenciadorContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/GerenciadorContas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectBank-APS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectBank-APS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,146 +16,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="240512387">
+    <session id="243865281">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="6" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.types.open">
+      <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="122" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="122" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.compare" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1720190263">
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="5520" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="5520" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="20" />
-          <entry key="java" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="20" />
-          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/Conta.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,27 +64,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/Gerente.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaEspecial.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrenteTeste.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/Conta.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2119" />
-    <option name="y" value="113" />
-    <option name="width" value="1272" />
-    <option name="height" value="716" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,43 +80,35 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ProjetoBanco-APS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoBanco-APS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectBank-APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectBank-APS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetoBanco-APS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoBanco-APS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectBank-APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectBank-APS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ProjetoBanco-APS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoBanco-APS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjetoBanco" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetoBanco-APS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoBanco-APS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectBank-APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectBank-APS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ProjetoBanco" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjetoBancoTeste" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541779300821" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,374 +122,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GerenciadorContasTeste.TesteRemoverContas">
-    <configuration name="ContaCorrenteTeste.TesteContaCorrente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectBank-APS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjetoBanco.ProjetoBancoTeste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ProjetoBanco.ProjetoBancoTeste" />
-      <option name="MAIN_CLASS_NAME" value="ProjetoBanco.ProjetoBancoTeste.ContaCorrenteTeste" />
-      <option name="METHOD_NAME" value="TesteContaCorrente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContaCorrenteTeste.TesteSacar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectBank-APS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjetoBanco.ProjetoBancoTeste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ProjetoBanco.ProjetoBancoTeste" />
-      <option name="MAIN_CLASS_NAME" value="ProjetoBanco.ProjetoBancoTeste.ContaCorrenteTeste" />
-      <option name="METHOD_NAME" value="TesteSacar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContaCorrenteTeste.TesteUsandoLimite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectBank-APS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjetoBanco.ProjetoBancoTeste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ProjetoBanco.ProjetoBancoTeste" />
-      <option name="MAIN_CLASS_NAME" value="ProjetoBanco.ProjetoBancoTeste.ContaCorrenteTeste" />
-      <option name="METHOD_NAME" value="TesteUsandoLimite" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GerenciadorContasTeste.TesteAdicionarContas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectBank-APS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjetoBanco.ProjetoBancoTeste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ProjetoBanco.ProjetoBancoTeste" />
-      <option name="MAIN_CLASS_NAME" value="ProjetoBanco.ProjetoBancoTeste.GerenciadorContasTeste" />
-      <option name="METHOD_NAME" value="TesteAdicionarContas" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GerenciadorContasTeste.TesteRemoverContas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectBank-APS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjetoBanco.ProjetoBancoTeste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ProjetoBanco.ProjetoBancoTeste" />
-      <option name="MAIN_CLASS_NAME" value="ProjetoBanco.ProjetoBancoTeste.GerenciadorContasTeste" />
-      <option name="METHOD_NAME" value="TesteRemoverContas" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.ContaCorrenteTeste.TesteContaCorrente" />
-      <item itemvalue="JUnit.ContaCorrenteTeste.TesteUsandoLimite" />
-      <item itemvalue="JUnit.ContaCorrenteTeste.TesteSacar" />
-      <item itemvalue="JUnit.GerenciadorContasTeste.TesteAdicionarContas" />
-      <item itemvalue="JUnit.GerenciadorContasTeste.TesteRemoverContas" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.GerenciadorContasTeste.TesteRemoverContas" />
-        <item itemvalue="JUnit.GerenciadorContasTeste.TesteAdicionarContas" />
-        <item itemvalue="JUnit.ContaCorrenteTeste.TesteSacar" />
-        <item itemvalue="JUnit.ContaCorrenteTeste.TesteUsandoLimite" />
-        <item itemvalue="JUnit.ContaCorrenteTeste.TesteContaCorrente" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0c7b5c7-a9ad-4ffe-b5f2-a4d3238a531a" name="Default Changelist" comment="" />
-      <created>1541552118104</created>
+      <changelist id="dcc22f93-37c7-4c6e-8e43-a5c6a3214083" name="Default Changelist" comment="" />
+      <created>1541878381384</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541552118104</updated>
+      <updated>1541878381384</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 12h 10m 04s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 12h 10m 12s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 12h 10m 53s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 12h 24m 25s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 12h 24m 44s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 12h 24m 57s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 12h 25m 32s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 13h 53m 42s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 13h 55m 03s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste_TesteRemoverContas - 2018.11.09 at 13h 59m 14s.xml">
-      <configuration name="GerenciadorContasTeste.TesteRemoverContas" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="100" y="20" width="1400" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18463181" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32912722" />
-      <window_info anchor="bottom" id="JRebel Executor" order="1" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32912722" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.39957938" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/Gerente.java" />
     <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaEspecial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="86" lean-forward="true" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/Failure.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#870#1063#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
-          <folding>
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#5951#6086#0" expanded="true" />
-            <element signature="e#6085#6086#0" expanded="true" />
-            <element signature="e#6484#6648#0" expanded="true" />
-            <element signature="e#6647#6648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
