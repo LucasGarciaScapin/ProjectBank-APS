@@ -8,6 +8,7 @@ package ProjetoBanco;
 /**
  * @author Lucas Garcia
  * @author Júlio "Lennox" Vinícius
+ * @author Matheus Oliveira
  */
 public class ContaPoupanca extends Conta {
     
@@ -15,8 +16,10 @@ public class ContaPoupanca extends Conta {
         super(cpf, nomeCliente, numeroConta, saldo);
     }
 
-    //TODO Revisar se essa eh a logica.
-    public void calculaRendimento (int porcentagemRendimento){
-        System.out.println(((getSaldo() * (porcentagemRendimento/100)) + getSaldo()));
+    //double para testar...
+    public double calculaRendimento (int porcentagemRendimento){
+        double valorRendimento = super.getSaldo() * porcentagemRendimento/100;
+        super.depositar(valorRendimento);
+        return super.getSaldo();
     }
 }

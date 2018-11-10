@@ -11,7 +11,7 @@ import java.util.*;
  * @author Jair Gudaites Junior - 21134258
  * @author Lucas Garcia - 21128904
  * @author Júlio "Lennox" Vinícius - 21085239
- * @author Matheus Oliveira - 21
+ * @author Matheus Oliveira - 21073117
  */
 public class AppBanco {
 
@@ -113,7 +113,7 @@ public class AppBanco {
                     }
             }
 
-        }while (opcao==10);
+        }while (opcao!=10);
 
     }
     

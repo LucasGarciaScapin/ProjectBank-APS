@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 /**@author Junior Gudaites
  * @author Lucas Garcia
+ * @author Matheus Oliveira
  */
 
 public class GerenciadorContas {
@@ -69,11 +70,11 @@ public class GerenciadorContas {
                 contaDestino = c;
             }
         }
-        //TODO refazer essa logica porque esta sacando duas vezes
-        if (contaOrigem != null && contaDestino != null && contaOrigem.sacar(valor)) {
-            contaOrigem.sacar(valor);
-            contaDestino.depositar(valor);
-            return true;
+
+        if (contaOrigem != null && contaDestino != null) {
+            if (contaOrigem.sacar(valor) && contaDestino.depositar(valor)) {
+                return true;
+            }
         }
             return false;
     }

@@ -8,6 +8,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+
+/**
+ * @author Matheus Oliveira
+ * @author Lucas Garcia
+ */
+
 public class GerenciadorContasTeste {
 
     GerenciadorContas gc = new GerenciadorContas();
@@ -27,7 +33,7 @@ public class GerenciadorContasTeste {
     public void testeRemoverContas(){
         gc.adicionarConta(cc);
         gc.removerConta(654321);
-        assertTrue("Retorno de lista vazia",gc.getList().isEmpty());
+        assertTrue("Retorno de lista vazia", gc.getList().isEmpty());
     }
 
     @Test
