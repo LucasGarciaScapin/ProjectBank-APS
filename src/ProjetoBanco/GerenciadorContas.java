@@ -1,9 +1,6 @@
 package ProjetoBanco;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
 
 /**@author Junior Gudaites
  * @author Lucas Garcia
@@ -72,17 +69,15 @@ public class GerenciadorContas {
                 contaDestino = c;
             }
         }
-        //TODO revisar essa nova logica
+        //TODO refazer essa logica porque esta sacando duas vezes
         if (contaOrigem != null && contaDestino != null && contaOrigem.sacar(valor)) {
             contaOrigem.sacar(valor);
             contaDestino.depositar(valor);
             return true;
-        } else {
-            return false;
         }
+            return false;
     }
 
-    //TODO revisar essa nova logica
     public boolean sacar(int numeroConta, double valorSacado){
         for (Conta c : list) {
             if(c.getNumeroConta() == numeroConta){
