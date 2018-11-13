@@ -28,6 +28,7 @@ public class AppBanco {
         int numeroContaOrigem;
         int numeroContaDestino;
         double valor;
+        int random = r.nextInt(2);
 
         int opcao;
         int opcao2;
@@ -73,7 +74,7 @@ public class AppBanco {
                             System.out.printf("Saldo: ");
                             saldo = in.nextDouble();
                             in.nextLine();
-                            int random = r.nextInt(2);
+
                             if (random == 1) {
                                 limite = 1000;
                                 System.out.println("Realizamos uma consulta pelo seu CPF e liberamos R$" + limite + " de limite.");
@@ -96,6 +97,7 @@ public class AppBanco {
                             saldo = in.nextDouble();
                             in.nextLine();
                             gerenciadorContas.adicionarConta(new ContaPoupanca(cpf, nomeCliente, numeroConta, saldo));
+                            System.out.println("Conta criada com sucesso!\n");
                             break;
 
                         case 3:
@@ -110,10 +112,18 @@ public class AppBanco {
                             System.out.print("Saldo: ");
                             saldo = in.nextDouble();
                             in.nextLine();
-                            limite = 1000;
+
                             System.out.print("Nome Gerente: ");
                             nomeGerente = in.nextLine();
-                            gerenciadorContas.adicionarConta(new ContaEspecial(cpf,nomeCliente,numeroConta,saldo,limite,nomeGerente));
+                            if (random == 1) {
+                                limite = 1000;
+                                System.out.println("Conta Criada! Realizamos uma consulta pelo seu CPF e liberamos R$" + limite + " de limite.");
+                                gerenciadorContas.adicionarConta(new ContaEspecial(cpf,nomeCliente,numeroConta,saldo,limite,nomeGerente));
+                            }else {
+                                System.out.println("Sua Conta foi criada porem no momento nao podemos liberar limite a sua conta.\n Favor entrar em contato com "
+                                        + nomeGerente + " para mais informacoes.");
+                                gerenciadorContas.adicionarConta(new ContaEspecial(cpf,nomeCliente,numeroConta,saldo,nomeGerente));
+                            }
                             break;
                         default:
                             System.out.println("Opção Inválida");

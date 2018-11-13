@@ -39,6 +39,6 @@ public class ContaCorrente extends Conta {
   
     @Override
     public String toString(){
-        return super.toString() + "\nLimite: " + limite;
+        return "CONTA CORRENTE \n" + super.toString() + "\nLimite: " + limite;
     }
 }

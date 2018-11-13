@@ -33,6 +33,6 @@ public class ContaEspecial extends ContaCorrente {
 
     @Override
     public String toString() {
-        return super.toString() + "\nGerente responsavel: " + nomeGerente;
+        return "CONTA ESPECIAL \n" + super.toString() + "\nGerente responsavel: " + nomeGerente;
     }
 }
