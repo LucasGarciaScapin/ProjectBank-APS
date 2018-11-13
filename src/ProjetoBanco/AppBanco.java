@@ -138,7 +138,7 @@ public class AppBanco {
                         }
                     break;
                 case 4:
-                    System.out.println("Clientes Encontrados");
+                    System.out.println("Clientes Encontrados\n");
                     if (gerenciadorContas.buscarClientesUsandoLimite()==""){
                         System.out.println("Nenhum Cliente Encontrado\n");
                     } else{
@@ -151,7 +151,7 @@ public class AppBanco {
                     System.out.println(gerenciadorContas.buscarConta(numeroConta)+"\n");
                     break;
                 case 6:
-                    System.out.printf("Insira a conta de Origin: ");
+                    System.out.printf("Insira a conta de Origem: ");
                     numeroContaOrigem = in.nextInt();
                     System.out.printf("Insira a conta de Destino: ");
                     numeroContaDestino = in.nextInt();
@@ -164,7 +164,7 @@ public class AppBanco {
                     }
                     break;
                 case 7:
-                    System.out.printf("Insira Número da Conta:");
+                    System.out.printf("Insira Número da Conta: ");
                     numeroConta = in.nextInt();
                     System.out.printf("Insira o Valor: ");
                     valor = in.nextDouble();
@@ -175,7 +175,7 @@ public class AppBanco {
                     }
                     break;
                 case 8:
-                    System.out.printf("Insira Número da Conta:");
+                    System.out.printf("Insira Número da Conta: ");
                     numeroConta = in.nextInt();
                     System.out.printf("Insira o Valor: ");
                     valor = in.nextDouble();

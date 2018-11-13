@@ -30,7 +30,7 @@ public class ContaCorrente extends Conta {
 
     @Override
     public boolean sacar(double valorSaca){
-        if(valorSaca < (super.getSaldo() + limite)){
+        if(valorSaca <= (super.getSaldo() + limite)){
             super.sacar(valorSaca);
             return true;
         }
