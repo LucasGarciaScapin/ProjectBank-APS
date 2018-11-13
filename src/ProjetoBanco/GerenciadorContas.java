@@ -26,8 +26,8 @@ public class GerenciadorContas {
         list.add(c);
     }
 
-    public void removerConta(int numeroConta) {
-        list.removeIf(conta -> conta.getNumeroConta() == numeroConta);
+    public boolean removerConta(int numeroConta) {
+        return list.removeIf(conta -> conta.getNumeroConta() == numeroConta);
     }
 
     public String buscarContasEpeciais(){
@@ -105,7 +105,7 @@ public class GerenciadorContas {
     public String listarContas(){
         String listagem = "";
         for (Conta c : list) {
-            listagem += c + "\n";
+            listagem += "\n" + c + "\n";
         }
         return listagem;
     }
