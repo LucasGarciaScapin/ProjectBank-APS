@@ -15,7 +15,7 @@ public abstract class Conta {
 
     /** Construtor
      * Com parametros cpf, nomeCliente, numeroConta, saldo */
-public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
+public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     this.cpf = cpf;
     this.nomeCliente = nomeCliente;
     this.numeroConta = numeroConta;
