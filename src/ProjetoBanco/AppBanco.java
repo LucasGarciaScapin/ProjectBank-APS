@@ -63,11 +63,11 @@ public class AppBanco {
                     switch (opcao2) {
                         case 1:
                             System.out.println("Insira os seguintes dados:");
-                            System.out.printf("CPF: ");
+                            System.out.print("CPF: ");
                             cpf = in.nextLine();
-                            System.out.printf("Nome: ");
+                            System.out.print("Nome: ");
                             nomeCliente = in.nextLine();
-                            System.out.printf("Conta: ");
+                            System.out.print("Conta: ");
                             numeroConta = in.nextInt();
                             in.nextLine();
                             System.out.printf("Saldo: ");
@@ -76,16 +76,18 @@ public class AppBanco {
                             int random = r.nextInt(2);
                             if (random == 1) {
                                 limite = 1000;
+                                System.out.println("Realizamos uma consulta pelo seu CPF e liberamos R$" + limite + " de limite.");
                                 gerenciadorContas.adicionarConta(new ContaCorrente(cpf, nomeCliente, numeroConta, saldo, limite));
                             } else {
+                                System.out.println("Sua Conta foi criada porem no momento nao podemos liberar limite a sua conta.");
                                 gerenciadorContas.adicionarConta(new ContaCorrente(cpf, nomeCliente, numeroConta, saldo));
                             }
                             break;
                         case 2:
                             System.out.println("Insira os seguintes dados:");
-                            System.out.printf("CPF: ");
+                            System.out.print("CPF: ");
                             cpf = in.nextLine();
-                            System.out.printf("Nome: ");
+                            System.out.print("Nome: ");
                             nomeCliente = in.nextLine();
                             System.out.print("Conta: ");
                             numeroConta = in.nextInt();
@@ -98,18 +100,18 @@ public class AppBanco {
 
                         case 3:
                             System.out.println("Insira os seguintes dados:");
-                            System.out.printf("CPF: ");
+                            System.out.print("CPF: ");
                             cpf = in.nextLine();
-                            System.out.printf("Nome: ");
+                            System.out.print("Nome: ");
                             nomeCliente = in.nextLine();
-                            System.out.printf("Conta: ");
+                            System.out.print("Conta: ");
                             numeroConta = in.nextInt();
                             in.nextLine();
-                            System.out.printf("Saldo: ");
+                            System.out.print("Saldo: ");
                             saldo = in.nextDouble();
                             in.nextLine();
                             limite = 1000;
-                            System.out.printf("Nome Gerente: ");
+                            System.out.print("Nome Gerente: ");
                             nomeGerente = in.nextLine();
                             gerenciadorContas.adicionarConta(new ContaEspecial(cpf,nomeCliente,numeroConta,saldo,limite,nomeGerente));
                             break;
@@ -119,7 +121,7 @@ public class AppBanco {
                     }
                     break;
                 case 2:
-                    System.out.println("Insira o número da conta a ser excluida: ");
+                    System.out.print("Insira o número da conta a ser excluida: ");
                     numeroConta = in.nextInt();
                         if (gerenciadorContas.removerConta(numeroConta)){
                             System.out.println("Conta Removida\n");
@@ -128,7 +130,7 @@ public class AppBanco {
                         }
                     break;
                 case 3:
-                    System.out.println("Contas Especiais Encontradas");
+                    System.out.println("Contas Especiais Encontradas\n");
                     if (gerenciadorContas.buscarContasEpeciais()==""){
                         System.out.println("Nenhuma Conta Especial Encontrada\n");
                     } else {

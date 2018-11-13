@@ -72,22 +72,16 @@ public class GerenciadorContas {
                 contaDestino = c;
             }
         }
-        //TODO revisar essa nova logica
-        if (contaOrigem != null && contaDestino != null && contaOrigem.sacar(valor)) {
-            contaOrigem.sacar(valor);
-            contaDestino.depositar(valor);
-            return true;
-        } else {
+        if (contaOrigem != null && contaDestino != null && contaOrigem.getSaldo() > valor) {
+            return contaDestino.depositar(valor) && contaOrigem.sacar(valor);
+            }
             return false;
         }
-    }
 
-    //TODO revisar essa nova logica
     public boolean sacar(int numeroConta, double valorSacado){
         for (Conta c : list) {
             if(c.getNumeroConta() == numeroConta){
-                    c.sacar(valorSacado);
-                    return true;
+                return c.sacar(valorSacado);
                 }
             }return false;
     }
@@ -95,8 +89,7 @@ public class GerenciadorContas {
     public boolean depositar(int numeroConta, double valorDeposito){
         for (Conta c : list) {
             if(c.getNumeroConta() == numeroConta){
-                c.depositar(valorDeposito);
-                return true;
+                return c.depositar(valorDeposito);
             }
         }return false;
     }
