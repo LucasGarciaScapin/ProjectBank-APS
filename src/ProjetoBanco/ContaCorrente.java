@@ -7,39 +7,38 @@ package ProjetoBanco;
 
 /**
  * @author Lucas Garcia
- * @author Lennox
+ * @author Júlio "Lennox" Vinícius
  */
 public class ContaCorrente extends Conta {
+
     private int limite;
-    
+
     //Construtor da ContaCorrente sem limite
-    public ContaCorrente(String cpf, String nomeCliente, int numeroConta, int saldo) {
+    public ContaCorrente(String cpf, String nomeCliente, int numeroConta, double saldo) {
         super(cpf, nomeCliente, numeroConta, saldo);
     }
-        
+
     //Construtor da ContaCorrente com limite
-    public ContaCorrente(String cpf, String nomeCliente, int numeroConta, int saldo, int limite) {
+    public ContaCorrente(String cpf, String nomeCliente, int numeroConta, double saldo, int limite) {
         super(cpf, nomeCliente, numeroConta, saldo);
         this.limite = limite;
     }
     
-    //Método pra ver se a conta tem limite
     public boolean usandoLimite(){
-        return limite < 0;
+        return limite > 0 && getSaldo() < 0;
     }
 
     @Override
-    public boolean sacar(int valorSacado){
-        if(valorSacado < limite){
+    public boolean sacar(double valorSaca){
+        if(valorSaca < (super.getSaldo() + limite)){
+            super.sacar(valorSaca);
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
-
+  
     @Override
     public String toString(){
-        return super.toString()
-            + "Limite: " + limite;
+        return super.toString() + "\nLimite: " + limite;
     }
 }

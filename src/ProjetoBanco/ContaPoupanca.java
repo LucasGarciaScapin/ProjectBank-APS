@@ -7,18 +7,16 @@ package ProjetoBanco;
 
 /**
  * @author Lucas Garcia
- * @author Lennox
+ * @author Júlio "Lennox" Vinícius
  */
 public class ContaPoupanca extends Conta {
     
-    public ContaPoupanca (String cpf, String nomeCliente, int numeroConta, int saldo){
+    public ContaPoupanca (String cpf, String nomeCliente, int numeroConta, double saldo){
         super(cpf, nomeCliente, numeroConta, saldo);
     }
-    
-    
+
+    //TODO Revisar se essa eh a logica.
     public void calculaRendimento (int porcentagemRendimento){
-    //Estudando ainda como fazer o calculo
-    //Em duvida, to consultando aqui: https://blog.rico.com.vc/rendimento-da-poupanca
-    
+        System.out.println(((getSaldo() * (porcentagemRendimento/100)) + getSaldo()));
     }
 }

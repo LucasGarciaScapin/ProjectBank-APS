@@ -3,14 +3,15 @@ package ProjetoBanco;
 /**
  * Projeto Banco
  * @author Lucas Garcia
- * @author Lennox
+ * @author Júlio "Lennox" Vinícius
  */
 public abstract class Conta {
 
     private String nomeCliente;
     private String cpf;
     private int numeroConta;
-    private int saldo;
+    private double saldo;
+
 
     /** Construtor
      * Com parametros cpf, nomeCliente, numeroConta, saldo */
@@ -33,7 +34,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
         return cpf;
     }
 
-    public int getSaldo() {
+    public double getSaldo() {
         return saldo;
     }
 
@@ -49,35 +50,36 @@ public Conta (String cpf, String nomeCliente, int numeroConta, int saldo){
         this.numeroConta = numeroConta;
     }
 
-    private void setSaldo(int saldo) {
+    private void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
-//Metodo para sacar dinheiro.
-public boolean sacar(int valorSacado){
-    if (valorSacado < saldo){
-        return true;
-    } else {
-        return false;
+    //Metodo para sacar dinheiro.
+    public boolean sacar(double valorSacado){
+        if(valorSacado > 0) {
+            saldo -= valorSacado;
+            return true;
+        } else {
+            return false;
+        }
     }
-}
-//Provavelmente vamos ter que usar esse boolean no main pra alterar o saldo da conta
 
-//Metodo para deposito
-public boolean depositar (int valorDepositado){
-    if(valorDepositado > 0){
-        return true;
-    } else {
-        return false;
+    //Metodo para deposito
+    public boolean depositar (double valorDepositado){
+        if(valorDepositado > 0){
+            saldo += valorDepositado;
+            return true;
+        } else {
+            return false;
+        }
     }
-}
 
-@Override
-public String toString (){
-    return "CPF do Cliente: " + cpf
-        + "\nNome do Cliente: " + nomeCliente
-        + "\nNumero da Conta: " + numeroConta
-        + "\nSaldo da Conta: " + saldo;
-}
-
+    //toString
+    @Override
+    public String toString (){
+        return "CPF do Cliente: " + cpf
+            + "\nNome do Cliente: " + nomeCliente
+            + "\nNumero da Conta: " + numeroConta
+            + "\nSaldo da Conta: " + saldo;
+    }
 }
