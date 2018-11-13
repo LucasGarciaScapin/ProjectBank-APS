@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
  */
 public class ContaPoupancaTeste {
 
-    ContaPoupanca c = new ContaPoupanca("12312312312", "Mathues", 65432, 120);
+    ContaPoupanca c = new ContaPoupanca("123.123.123-12", "Matheus", 65432, 120);
 
     @Test
     public void testeCalcularRendimento(){

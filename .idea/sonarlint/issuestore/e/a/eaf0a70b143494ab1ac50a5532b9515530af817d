@@ -1,9 +1,8 @@
 
-3squid:S1643""Use a StringBuilder instead.(ÚÍ
-8squid:S1643-"Use a StringBuilder instead.(£®ÁÄşÿÿÿÿ
-Nsquid:S1135H"2Complete the task associated to this TODO comment.(ç´·™øÿÿÿÿ
-Esquid:S1066,"/Merge this if statement with the enclosing one.(ïÂÔ
+:squid:S1643#"Use a StringBuilder instead.(ÚÍ8§şíüï,
+Rsquid:S1066K"/Merge this if statement with the enclosing one.(‡ùığúÿÿÿÿ8§şíüï,
 qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ë£
-Nsquid:S1135R"2Complete the task associated to this TODO comment.(ç´·™øÿÿÿÿ
-3squid:S1643i"Use a StringBuilder instead.( ä ±
-‡squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹‰´Ö
+3squid:S1643h"Use a StringBuilder instead.( ä ±
+squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹‰´Ö8§şíüï,
+Lsquid:S1066-"/Merge this if statement with the enclosing one.(ïÂÔ8§şíüï,
+?squid:S1643."Use a StringBuilder instead.(£®ÁÄşÿÿÿÿ8§şíüï,

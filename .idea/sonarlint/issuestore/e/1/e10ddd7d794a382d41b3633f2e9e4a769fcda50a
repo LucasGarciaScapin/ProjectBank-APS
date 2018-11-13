@@ -1,5 +1,5 @@
 
-Usquid:UnusedPrivateMethod+"+Remove this unused private "setCpf" method.(İËôšÿÿÿÿÿ
+qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ë£
 ]squid:UnusedPrivateMethod/"3Remove this unused private "setNumeroConta" method.(³ü–üÿÿÿÿ
 Wsquid:UnusedPrivateMethod3"-Remove this unused private "setSaldo" method.(øì¶ıÿÿÿÿ
-qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ë£
+Usquid:UnusedPrivateMethod+"+Remove this unused private "setCpf" method.(İËôšÿÿÿÿÿ

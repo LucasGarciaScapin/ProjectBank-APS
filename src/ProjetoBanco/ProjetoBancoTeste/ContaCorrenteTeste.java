@@ -1,10 +1,10 @@
 package ProjetoBanco.ProjetoBancoTeste;
 
 import ProjetoBanco.ContaCorrente;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.testng.Assert.assertTrue;
+import static org.junit.Assert.*;
+
 
 /**
  * @author Matheus Oliveira
