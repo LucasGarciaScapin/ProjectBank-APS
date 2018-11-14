@@ -7,9 +7,12 @@ package ProjetoBanco;
 
 /**
  * Classe Especial que herda de ContaCorrente
- * @author Lucas Garcia Scapin
- * @author Júlio "Lennox" Vinícius
+ * @author Jair Gudaites Junior - 21134258
+ * @author Lucas Garcia Scapin - 21128904
+ * @author Júlio Vinícius - 21085239
+ * @author Matheus Oliveira - 21073117
  */
+
 public class ContaEspecial extends ContaCorrente {
 
     private String nomeGerente;
@@ -63,6 +66,6 @@ public class ContaEspecial extends ContaCorrente {
      */
     @Override
     public String toString() {
-        return super.toString() + "\nGerente responsavel: " + nomeGerente;
+        return super.toString() + "\nGerente responsável: " + nomeGerente;
     }
 }

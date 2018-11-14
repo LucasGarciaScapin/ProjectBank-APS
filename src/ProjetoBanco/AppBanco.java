@@ -10,9 +10,10 @@ import java.util.*;
 /**
  * @author Jair Gudaites Junior - 21134258
  * @author Lucas Garcia Scapin - 21128904
- * @author Júlio "Lennox" Vinícius - 21085239
+ * @author Júlio Vinícius - 21085239
  * @author Matheus Oliveira - 21073117
  */
+
 public class AppBanco {
 
     public static void main(String[] args) {

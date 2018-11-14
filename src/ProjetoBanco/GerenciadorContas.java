@@ -7,7 +7,10 @@ import java.util.Iterator;
 
 /**
  * Classe utilizada para gerenciar contas
- * @author Lucas Garcia Scapin
+ * @author Jair Gudaites Junior - 21134258
+ * @author Lucas Garcia Scapin - 21128904
+ * @author Júlio Vinícius - 21085239
+ * @author Matheus Oliveira - 21073117
  */
 
 public class GerenciadorContas {

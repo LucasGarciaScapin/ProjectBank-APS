@@ -2,9 +2,12 @@ package ProjetoBanco;
 
 /**
  * Classe Abstrata
- * @author Lucas Garcia Scapin
- * @author Júlio "Lennox" Vinícius
+ * @author Jair Gudaites Junior - 21134258
+ * @author Lucas Garcia Scapin - 21128904
+ * @author Júlio Vinícius - 21085239
+ * @author Matheus Oliveira - 21073117
  */
+
 public abstract class Conta {
 
     private String nomeCliente;

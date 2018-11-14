@@ -3,22 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="dcc22f93-37c7-4c6e-8e43-a5c6a3214083" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/AppBanco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaCorrente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaEspecial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaPoupanca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/GerenciadorContas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ContaEspecial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,14 +113,43 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-167456998">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="70" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="70" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -138,16 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -155,43 +166,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/Conta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-              <folding>
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java">
+        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -199,13 +184,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1697#1698#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
+                <element signature="e#1355#1356#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,25 +199,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaEspecial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="e#1323#1324#0" expanded="true" />
-                <element signature="e#1357#1358#0" expanded="true" />
-                <element signature="e#1411#1412#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1759#1760#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -261,14 +229,14 @@
         <option value="$PROJECT_DIR$/src/ProjetoBanco/Gerente.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrenteTeste.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaPoupancaTeste.java" />
+        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" />
+        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/Conta.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaEspecial.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" />
       </list>
     </option>
   </component>
@@ -279,9 +247,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -311,14 +280,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ProjetoBanco-APS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoBanco-APS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectBank-APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectBank-APS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectBank-APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectBank-APS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectBank-APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectBank-APS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjetoBanco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectBank-APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -330,7 +314,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542200339425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542210791644" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -481,10 +465,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.20170757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.20499243" />
       <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.20170757" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -539,13 +523,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1.jar!/org/junit/jupiter/api/Assertions.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/Assert.class" />
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaPoupancaTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaPoupancaTeste.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -588,98 +566,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java">
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" />
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" />
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaEspecial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaEspecial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

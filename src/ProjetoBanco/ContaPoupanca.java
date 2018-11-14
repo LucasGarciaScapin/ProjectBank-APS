@@ -2,9 +2,12 @@ package ProjetoBanco;
 
 /**
  * Classe ContaPoupanca que herda de Conta
- * @author Lucas Garcia Scapin
- * @author Júlio "Lennox" Vinícius
+ * @author Jair Gudaites Junior - 21134258
+ * @author Lucas Garcia Scapin - 21128904
+ * @author Júlio Vinícius - 21085239
+ * @author Matheus Oliveira - 21073117
  */
+
 public class ContaPoupanca extends Conta {
     /**
      * Construtor default
@@ -26,10 +29,14 @@ public class ContaPoupanca extends Conta {
         return getSaldo() * (porcentagemRendimento/100);
     }
 
-    //TODO formatar o texto
+    /**
+     * Reescrita do toString() implementando saldo e o rendimento
+     * @return String
+     */
+
     @Override
     public String toString() {
-        return super.toString() + "\nConsidenrando o saldo o rendimento deste mes e: "
+        return super.toString() + "\nConsidenrando o saldo, o rendimento deste mês é: "
                 + calculaRendimento(0.5f);
     }
 }
