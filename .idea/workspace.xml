@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcc22f93-37c7-4c6e-8e43-a5c6a3214083" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79229f20697e3802c1fac7eca259cbb41f91d72c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79229f20697e3802c1fac7eca259cbb41f91d72c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e0f2b75d54a27fa22af167fffdaa228051369e6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e0f2b75d54a27fa22af167fffdaa228051369e6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e10ddd7d794a382d41b3633f2e9e4a769fcda50a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e10ddd7d794a382d41b3633f2e9e4a769fcda50a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaf0a70b143494ab1ac50a5532b9515530af817d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaf0a70b143494ab1ac50a5532b9515530af817d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/AppBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/AppBanco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ContaPoupanca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/GerenciadorContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/GerenciadorContas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/ContaPoupancaTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/ContaPoupancaTeste.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectBank-APS/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaPoupancaTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaPoupancaTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,12 +53,12 @@
     <session id="-1720190263">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6625" />
+          <entry key="java" value="6717" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6625" />
+          <entry key="JAVA" value="6717" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -125,44 +114,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/Conta.java">
+        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="420">
+              <caret line="28" column="26" selection-end-line="80" />
               <folding>
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java">
+        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -193,12 +160,12 @@
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrenteTeste.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/Conta.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaCorrente.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ContaPoupanca.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/AppBanco.java" />
-        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaPoupancaTeste.java" />
         <option value="$PROJECT_DIR$/src/ProjetoBanco/GerenciadorContas.java" />
+        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java" />
+        <option value="$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java" />
       </list>
     </option>
   </component>
@@ -240,6 +207,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,15 +238,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542042214327" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542196577671" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -291,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GerenciadorContasTeste.testeRemoverContas">
+  <component name="RunManager" selected="JUnit.ContaCorrenteTeste">
     <configuration name="ContaCorrenteTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectBank-APS" />
       <extension name="coverage">
@@ -377,10 +344,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GerenciadorContasTeste.testeRemoverContas" />
-        <item itemvalue="JUnit.GerenciadorContasTeste" />
-        <item itemvalue="JUnit.ContaPoupancaTeste.testeCalcularRendimento" />
         <item itemvalue="JUnit.ContaCorrenteTeste" />
+        <item itemvalue="JUnit.GerenciadorContasTeste" />
+        <item itemvalue="JUnit.GerenciadorContasTeste.testeRemoverContas" />
+        <item itemvalue="JUnit.ContaPoupancaTeste.testeCalcularRendimento" />
         <item itemvalue="JUnit.ContaCorrenteTeste.testeSacar" />
       </list>
     </recent_temporary>
@@ -399,27 +366,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GerenciadorContasTeste_testeBuscarContasEpeciais - 2018.11.10 at 19h 32m 44s.xml">
-      <configuration name="GerenciadorContasTeste.testeBuscarContasEpeciais" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContaCorrenteTeste_testeUsandoLimite - 2018.11.10 at 19h 32m 44s.xml">
-      <configuration name="ContaCorrenteTeste.testeUsandoLimite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContaCorrenteTeste_testeSacar - 2018.11.10 at 19h 33m 00s.xml">
-      <configuration name="ContaCorrenteTeste.testeSacar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContaCorrenteTeste_testeSacar - 2018.11.10 at 19h 33m 25s.xml">
-      <configuration name="ContaCorrenteTeste.testeSacar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContaCorrenteTeste_testeSacar - 2018.11.10 at 19h 35m 25s.xml">
-      <configuration name="ContaCorrenteTeste.testeSacar" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContaPoupancaTeste_testeCalcularRendimento - 2018.11.10 at 19h 35m 35s.xml">
-      <configuration name="ContaPoupancaTeste.testeCalcularRendimento" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GerenciadorContasTeste - 2018.11.10 at 19h 51m 56s.xml">
-      <configuration name="GerenciadorContasTeste" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ContaCorrenteTeste - 2018.11.10 at 19h 52m 00s.xml">
       <configuration name="ContaCorrenteTeste" configurationId="JUnit" />
     </history-entry>
@@ -429,13 +375,34 @@
     <history-entry file="GerenciadorContasTeste - 2018.11.12 at 14h 34m 37s.xml">
       <configuration name="GerenciadorContasTeste" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContaCorrenteTeste - 2018.11.14 at 09h 50m 08s.xml">
+      <configuration name="ContaCorrenteTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GerenciadorContasTeste - 2018.11.14 at 09h 50m 12s.xml">
+      <configuration name="GerenciadorContasTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GerenciadorContasTeste_testeRemoverContas - 2018.11.14 at 09h 53m 23s.xml">
+      <configuration name="GerenciadorContasTeste.testeRemoverContas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GerenciadorContasTeste_testeRemoverContas - 2018.11.14 at 09h 53m 53s.xml">
+      <configuration name="GerenciadorContasTeste.testeRemoverContas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GerenciadorContasTeste_testeRemoverContas - 2018.11.14 at 09h 54m 05s.xml">
+      <configuration name="GerenciadorContasTeste.testeRemoverContas" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GerenciadorContasTeste - 2018.11.14 at 09h 54m 44s.xml">
+      <configuration name="GerenciadorContasTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaCorrenteTeste - 2018.11.14 at 09h 56m 14s.xml">
+      <configuration name="ContaCorrenteTeste" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1995731" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.20170757" />
+      <window_info id="Structure" order="1" sideWeight="0.5013774" side_tool="true" weight="0.20170757" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -447,7 +414,7 @@
       <window_info anchor="bottom" id="JRebel Executor" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.23715848" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.23659305" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.3978142" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -472,18 +439,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -529,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -578,16 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -622,6 +560,23 @@
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/GerenciadorContasTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="26" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
