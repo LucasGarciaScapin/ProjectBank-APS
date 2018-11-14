@@ -10,8 +10,9 @@ import static org.junit.Assert.*;
 
 
 /**
- * @author Matheus Oliveira
- * @author Lucas Garcia
+ * Testes Unitarios de todos os metodos de GerenciarConta
+ * Para a realizacao dos testes foi utilizado a lib - JUnit 4.x
+ * @author Lucas Garcia Scapin
  */
 
 public class GerenciadorContasTeste {

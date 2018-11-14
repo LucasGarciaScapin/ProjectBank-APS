@@ -6,28 +6,51 @@
 package ProjetoBanco;
 
 /**
- * @author Lucas Garcia
+ * Classe ContaCorrente que herda de Conta
+ * @author Lucas Garcia Scapin
  * @author Júlio "Lennox" Vinícius
  */
 public class ContaCorrente extends Conta {
 
     private double limite;
 
-    //Construtor da ContaCorrente sem limite
+    /**
+     * Construtor sem a utilizacao de limite
+     * @param cpf String
+     * @param nomeCliente String
+     * @param numeroConta int
+     * @param saldo double
+     */
     public ContaCorrente(String cpf, String nomeCliente, int numeroConta, double saldo) {
         super(cpf, nomeCliente, numeroConta, saldo);
     }
 
-    //Construtor da ContaCorrente com limite
+    /**
+     * Contrutor com a utilizacao de limite
+     * @param cpf String
+     * @param nomeCliente String
+     * @param numeroConta int
+     * @param saldo double
+     * @param limite double
+     */
     public ContaCorrente(String cpf, String nomeCliente, int numeroConta, double saldo, double limite) {
         super(cpf, nomeCliente, numeroConta, saldo);
         this.limite = limite;
     }
-    
+
+    /**
+     * Metodo de verificacao se o cliente esta utilizando o limite
+     * @return boolean
+     */
     public boolean usandoLimite(){
         return limite > 0 && getSaldo() < 0;
     }
 
+    /**
+     * Reescrita do metodo sacar com verificacao/utilizacao do limite
+     * @param valorSaca double
+     * @return boolean
+     */
     @Override
     public boolean sacar(double valorSaca){
         if(valorSaca <= (super.getSaldo() + limite)){
@@ -36,7 +59,11 @@ public class ContaCorrente extends Conta {
         }
         return false;
     }
-  
+
+    /**
+     * Reescrita do toString() implementando limite
+     * @return String
+     */
     @Override
     public String toString(){
         return super.toString() + "\nLimite: " + limite;

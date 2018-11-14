@@ -1,8 +1,8 @@
 package ProjetoBanco;
 
 /**
- * Projeto Banco
- * @author Lucas Garcia
+ * Classe Abstrata
+ * @author Lucas Garcia Scapin
  * @author Júlio "Lennox" Vinícius
  */
 public abstract class Conta {
@@ -11,7 +11,6 @@ public abstract class Conta {
     private String cpf;
     private int numeroConta;
     private double saldo;
-
 
     /** Construtor
      * Com parametros cpf, nomeCliente, numeroConta, saldo */
@@ -22,39 +21,43 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     this.saldo = saldo;
 }
 
+    /**
+     * Metodo get de numeroConta
+     * @return int
+     */
     public int getNumeroConta() {
         return numeroConta;
     }
 
+    /**
+     * Metodo get de nomeCliente
+     * @return String
+     */
     public String getNomeCliente() {
         return nomeCliente;
     }
 
+    /**
+     * Metodo get de cpf
+     * @return String
+     */
     public String getCPF() {
         return cpf;
     }
 
+    /**
+     * Metodo get de saldo
+     * @return double
+     */
     public double getSaldo() {
         return saldo;
     }
 
-    public void setNomeCliente(String nomeCliente) {
-        this.nomeCliente = nomeCliente;
-    }
-    
-    private void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-    
-    private void setNumeroConta(int numeroConta) {
-        this.numeroConta = numeroConta;
-    }
-
-    private void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
-
-    //Metodo para sacar dinheiro.
+    /**
+     * Metodo para realizar saque em conta.
+     * @param valorSacado double
+     * @return boolean
+     */
     public boolean sacar(double valorSacado){
         if(valorSacado > 0) {
             saldo -= valorSacado;
@@ -64,7 +67,11 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
         }
     }
 
-    //Metodo para deposito
+    /**
+     * Metodo para realizar deposito em conta
+     * @param valorDepositado double
+     * @return boolean
+     */
     public boolean depositar (double valorDepositado){
         if(valorDepositado > 0){
             saldo += valorDepositado;
@@ -74,7 +81,10 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
         }
     }
 
-    //toString
+    /**
+     * ToString para formatar todos os atributos descritos na classe.
+     * @return String
+     */
     @Override
     public String toString (){
         return "CPF do Cliente: " + cpf

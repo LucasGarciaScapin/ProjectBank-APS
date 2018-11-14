@@ -6,6 +6,11 @@ import org.junit.Test;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Testes Unitarios de todos os metodos de ContaCorrente
+ * Para a realizacao dos testes foi utilizado a lib - JUnit 4.x
+ * @author Lucas Garcia Scapin
+ */
 public class ContaCorrenteTeste {
 
     ContaCorrente c1 = new ContaCorrente("039.444.251-07","Lucas Garcia",25874,5000,2000);

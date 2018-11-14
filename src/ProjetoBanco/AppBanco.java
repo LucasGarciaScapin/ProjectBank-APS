@@ -9,7 +9,7 @@ import java.util.*;
 
 /**
  * @author Jair Gudaites Junior - 21134258
- * @author Lucas Garcia - 21128904
+ * @author Lucas Garcia Scapin - 21128904
  * @author Júlio "Lennox" Vinícius - 21085239
  * @author Matheus Oliveira - 21073117
  */
@@ -32,7 +32,6 @@ public class AppBanco {
         int random = r.nextInt(2);
         int opcao;
         int opcao2;
-
 
         System.out.println("\t\tAPLICATIVO BANCARIO");
         do {

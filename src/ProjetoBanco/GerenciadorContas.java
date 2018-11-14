@@ -6,30 +6,50 @@ import java.util.Collections;
 import java.util.Iterator;
 
 /**
- * @author Lucas Garcia
+ * Classe utilizada para gerenciar contas
+ * @author Lucas Garcia Scapin
  */
 
 public class GerenciadorContas {
 
     private ArrayList<Conta> list;
 
-    // Esse get existe para realizar testes unitarios
-    public ArrayList<Conta> getList() {
-        return list;
-    }
-
+    /**
+     * Construtor default
+     */
     public GerenciadorContas(){
         list = new ArrayList<>();
     }
 
+    /**
+     * Metodo get da lista para execucao de testes unitarios
+     * @return ArrayList<Conta>
+     */
+    public ArrayList<Conta> getList() {
+        return list;
+    }
+
+    /**
+     * Adiciona uma conta na lista do tipo ArrayList
+     * @param c objeto de Conta
+     */
     public void adicionarConta(Conta c){
         list.add(c);
     }
 
+    /**
+     * Remove Conta da lista apartir do numero da mesma
+     * @param numeroConta int
+     * @return boolean
+     */
     public boolean removerConta(int numeroConta) {
         return list.removeIf(conta -> conta.getNumeroConta() == numeroConta);
     }
 
+    /**
+     * Busca apenas as contas que sao do tipo Especial
+     * @return String
+     */
     public String buscarContasEpeciais(){
         StringBuilder sb = new StringBuilder();
         for (Conta c : list) {
@@ -41,7 +61,10 @@ public class GerenciadorContas {
         }return sb.toString();
     }
 
-
+    /**
+     * Busca apenas os clientes que estao utilizando o limite
+     * @return String
+     */
         public String buscarClientesUsandoLimite(){
         StringBuilder sb = new StringBuilder();
         for (Conta c : list) {
@@ -55,6 +78,11 @@ public class GerenciadorContas {
         }return sb.toString();
     }
 
+    /**
+     * Busca na lista a conta pelo numero da conta
+     * @param numeroConta int
+     * @return Objeto Conta
+     */
     public Conta buscarConta(int numeroConta){
         for (Conta c : list) {
             if(c.getNumeroConta() == numeroConta){
@@ -63,6 +91,13 @@ public class GerenciadorContas {
         } return null;
     }
 
+    /**
+     * Realiza uma tranferencia de valores entre contas
+     * @param numeroContaOrigem int
+     * @param numeroContaDestino int
+     * @param valor double
+     * @return boolean
+     */
     public boolean transferirValor(int numeroContaOrigem, int numeroContaDestino, double valor) {
 
         Conta contaOrigem = null;
@@ -82,6 +117,12 @@ public class GerenciadorContas {
             return false;
         }
 
+    /**
+     * Realiza um saque de onde que corresponde ao numero da conta
+     * @param numeroConta int
+     * @param valorSacado double
+     * @return boolean
+     */
     public boolean sacar(int numeroConta, double valorSacado){
         for (Conta c : list) {
             if(c.getNumeroConta() == numeroConta){
@@ -90,6 +131,12 @@ public class GerenciadorContas {
             }return false;
     }
 
+    /**
+     * Realiza um deposito de onde que corresponde ao numero da conta
+     * @param numeroConta int
+     * @param valorDeposito double
+     * @return boolean
+     */
     public boolean depositar(int numeroConta, double valorDeposito){
         for (Conta c : list) {
             if(c.getNumeroConta() == numeroConta){
@@ -98,7 +145,10 @@ public class GerenciadorContas {
         }return false;
     }
 
-
+    /**
+     * Faz a listagem de todas as contas adicionadas na lista
+     * @return String
+     */
     public String listarContas(){
         StringBuilder sb = new StringBuilder();
         for (Conta c : list) {

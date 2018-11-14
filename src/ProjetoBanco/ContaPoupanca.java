@@ -1,22 +1,35 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ProjetoBanco;
 
 /**
- * @author Lucas Garcia
+ * Classe ContaPoupanca que herda de Conta
+ * @author Lucas Garcia Scapin
  * @author Júlio "Lennox" Vinícius
  */
 public class ContaPoupanca extends Conta {
-    
+    /**
+     * Construtor default
+     * @param cpf String
+     * @param nomeCliente String
+     * @param numeroConta int
+     * @param saldo double
+     */
     public ContaPoupanca (String cpf, String nomeCliente, int numeroConta, double saldo){
         super(cpf, nomeCliente, numeroConta, saldo);
     }
 
-    //TODO Revisar se essa eh a logica.
-    public void calculaRendimento (int porcentagemRendimento){
-        System.out.println(getSaldo() * (porcentagemRendimento/100));
+    /**
+     * Calcula rendimento mensal apartir da porcentagem e saldo em conta
+     * @param porcentagemRendimento int
+     * @return double
+     */
+    public double calculaRendimento (float porcentagemRendimento){
+        return getSaldo() * (porcentagemRendimento/100);
+    }
+
+    //TODO formatar o texto
+    @Override
+    public String toString() {
+        return super.toString() + "\nConsidenrando o saldo o rendimento deste mes e: "
+                + calculaRendimento(0.5f);
     }
 }
