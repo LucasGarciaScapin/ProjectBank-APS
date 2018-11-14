@@ -14,3 +14,7 @@ S
 #src/ProjetoBanco/ContaPoupanca.java,d/d/dd6fdd1ccca282abdf49f59a47d1b921462fd3d1
 N
 src/ProjetoBanco/AppBanco.java,d/2/d25f2310e9739ee756bf6df5ded6eab64d51d04c
+j
+:src/ProjetoBanco/ProjetoBancoTeste/ContaCorrenteTeste.java,7/9/79229f20697e3802c1fac7eca259cbb41f91d72c
+W
+'src/ProjetoBanco/GerenciadorContas.java,e/a/eaf0a70b143494ab1ac50a5532b9515530af817d

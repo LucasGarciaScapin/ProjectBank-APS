@@ -11,7 +11,7 @@ package ProjetoBanco;
  */
 public class ContaCorrente extends Conta {
 
-    private int limite;
+    private double limite;
 
     //Construtor da ContaCorrente sem limite
     public ContaCorrente(String cpf, String nomeCliente, int numeroConta, double saldo) {
@@ -19,7 +19,7 @@ public class ContaCorrente extends Conta {
     }
 
     //Construtor da ContaCorrente com limite
-    public ContaCorrente(String cpf, String nomeCliente, int numeroConta, double saldo, int limite) {
+    public ContaCorrente(String cpf, String nomeCliente, int numeroConta, double saldo, double limite) {
         super(cpf, nomeCliente, numeroConta, saldo);
         this.limite = limite;
     }
@@ -39,6 +39,6 @@ public class ContaCorrente extends Conta {
   
     @Override
     public String toString(){
-        return "CONTA CORRENTE \n" + super.toString() + "\nLimite: " + limite;
+        return super.toString() + "\nLimite: " + limite;
     }
 }

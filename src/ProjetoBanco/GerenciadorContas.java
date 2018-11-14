@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 
-/**@author Junior Gudaites
+/**
  * @author Lucas Garcia
  */
 
@@ -31,24 +31,28 @@ public class GerenciadorContas {
     }
 
     public String buscarContasEpeciais(){
-        String contasEspeciais = "";
+        StringBuilder sb = new StringBuilder();
         for (Conta c : list) {
            if(c instanceof ContaEspecial){
-                contasEspeciais += c + "\n";
+                sb.append(c)
+                        .append("\n")
+                        .append("\n");
             }
-        }return contasEspeciais;
+        }return sb.toString();
     }
 
 
         public String buscarClientesUsandoLimite(){
-        String limite = "";
+        StringBuilder sb = new StringBuilder();
         for (Conta c : list) {
             if(c instanceof ContaCorrente){
                 if(((ContaCorrente) c).usandoLimite()){
-                    limite += c + "\n";
+                    sb.append(c)
+                            .append("\n")
+                            .append("\n");
                 }
             }
-        }return limite;
+        }return sb.toString();
     }
 
     public Conta buscarConta(int numeroConta){
@@ -72,7 +76,7 @@ public class GerenciadorContas {
                 contaDestino = c;
             }
         }
-        if (contaOrigem != null && contaDestino != null && contaOrigem.getSaldo() > valor) {
+        if (contaOrigem != null && contaDestino != null  && contaOrigem.getSaldo() > valor) {
             return contaDestino.depositar(valor) && contaOrigem.sacar(valor);
             }
             return false;
@@ -96,10 +100,12 @@ public class GerenciadorContas {
 
 
     public String listarContas(){
-        String listagem = "";
+        StringBuilder sb = new StringBuilder();
         for (Conta c : list) {
-            listagem += "\n" + c + "\n";
+            sb.append("\n")
+                    .append(c)
+                    .append("\n");
         }
-        return listagem;
+        return sb.toString();
     }
 }

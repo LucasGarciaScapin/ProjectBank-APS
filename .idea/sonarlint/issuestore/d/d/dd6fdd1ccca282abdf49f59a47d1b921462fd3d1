@@ -1,2 +1,6 @@
 
 qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ë£
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(£ÿÿÿÿÿ8í¢Éòğ,
+Usquid:S1135"2Complete the task associated to this TODO comment.(áš»úÿÿÿÿ8í¢Éòğ,
+csquid:S2184"@Cast one of the operands of this integer division to a "double".(£ÿÿÿÿÿ8í¢Éòğ,

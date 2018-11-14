@@ -1,7 +1,5 @@
 
-Ysquid:UnusedPrivateMethod;"-Remove this unused private "setSaldo" method.(œÇ½ì8éõÄÒî,
-Wsquid:UnusedPrivateMethod3"+Remove this unused private "setCPF" method.(„İ¨ˆ8éõÄÒî,
-dsquid:UnusedPrivateMethod7"3Remove this unused private "setNumeroConta" method.(³ü–üÿÿÿÿ8éõÄÒî,
-_squid:S1126K"AReplace this if-then-else statement by a single return statement.(°¼¯‰8éõÄÒî,
-_squid:S1126A"AReplace this if-then-else statement by a single return statement.(…üÚ’8éõÄÒî,
-xsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ë£8ìîâÒî,
+\squid:UnusedPrivateMethod-"+Remove this unused private "setCpf" method.(İËôšÿÿÿÿÿ8â¼Şğğ,
+dsquid:UnusedPrivateMethod1"3Remove this unused private "setNumeroConta" method.(³ü–üÿÿÿÿ8â¼Şğğ,
+^squid:UnusedPrivateMethod5"-Remove this unused private "setSaldo" method.(øì¶ıÿÿÿÿ8â¼Şğğ,
+xsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ë£8â¼Şğğ,

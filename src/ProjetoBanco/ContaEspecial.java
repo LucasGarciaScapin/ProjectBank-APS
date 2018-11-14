@@ -18,7 +18,7 @@ public class ContaEspecial extends ContaCorrente {
         this.nomeGerente = nomeGerente;
     }
 
-    public ContaEspecial(String cpf, String nomeCliente, int numeroConta, double saldo, int limite, String nomeGerente) {
+    public ContaEspecial(String cpf, String nomeCliente, int numeroConta, double saldo, double limite, String nomeGerente) {
         super(cpf, nomeCliente, numeroConta, saldo, limite);
         this.nomeGerente = nomeGerente;
     }
@@ -33,6 +33,6 @@ public class ContaEspecial extends ContaCorrente {
 
     @Override
     public String toString() {
-        return "CONTA ESPECIAL \n" + super.toString() + "\nGerente responsavel: " + nomeGerente;
+        return super.toString() + "\nGerente responsavel: " + nomeGerente;
     }
 }

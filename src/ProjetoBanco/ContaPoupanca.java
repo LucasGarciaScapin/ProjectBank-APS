@@ -17,6 +17,6 @@ public class ContaPoupanca extends Conta {
 
     //TODO Revisar se essa eh a logica.
     public void calculaRendimento (int porcentagemRendimento){
-        System.out.println((getSaldo() * (porcentagemRendimento/100)));
+        System.out.println(getSaldo() * (porcentagemRendimento/100));
     }
 }

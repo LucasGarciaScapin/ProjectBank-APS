@@ -1,3 +1,140 @@
 
-Isquid:S1135"2Complete the task associated to this TODO comment.(Ìûû
-qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ë£
+[
+squid:S106G"9Replace this use of System.out or System.err by a logger.(’»Ô‘øÿÿÿÿ8º†Şğğ,
+[
+squid:S106h"9Replace this use of System.out or System.err by a logger.(Óû¿şıÿÿÿÿ8º†Şğğ,
+[
+squid:S106k"9Replace this use of System.out or System.err by a logger.(‡äÌïüÿÿÿÿ8º†Şğğ,
+[
+squid:S106]"9Replace this use of System.out or System.err by a logger.(’»Ô‘øÿÿÿÿ8º†Şğğ,
+V
+squid:S106C"9Replace this use of System.out or System.err by a logger.(š¸»×8º†Şğğ,
+W
+squid:S106™"9Replace this use of System.out or System.err by a logger.(¥÷Ùè8º†Şğğ,
+Isquid:S3457¼"%String contains no format specifiers.(—È‹ƒøÿÿÿÿ8º†Şğğ,
+usquid:S3457­"Q%n should be used in place of \n to produce the platform-specific line separator.(ªˆùŠÿÿÿÿÿ8º†Şğğ,
+\
+squid:S106­"9Replace this use of System.out or System.err by a logger.(ªˆùŠÿÿÿÿÿ8º†Şğğ,
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞŠêùÿÿÿÿ8º†Şğğ,
+[
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ÆÛÔ°øÿÿÿÿ8º†Şğğ,
+V
+squid:S106x"9Replace this use of System.out or System.err by a logger.(‹Èá8çã™òğ,
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(ùŞ…áÿÿÿÿÿ8º†Şğğ,
+xsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ë£8º†Şğğ,
+osquid:S1192¨"QDefine a constant instead of duplicating this literal "Insira o Valor: " 3 times.(¶åÏa8º†Şğğ,
+W
+squid:S106†"9Replace this use of System.out or System.err by a logger.(éå—8º†Şğğ,
+[
+squid:S106{"9Replace this use of System.out or System.err by a logger.(Šı§§ıÿÿÿÿ8„œòğ,
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ìÓŒ“üÿÿÿÿ8º†Şğğ,
+V
+squid:S1063"9Replace this use of System.out or System.err by a logger.(üÈÍê8º†Şğğ,
+W
+squid:S106‰"9Replace this use of System.out or System.err by a logger.(¿ä·¡8º†Şğğ,
+\
+squid:S106›"9Replace this use of System.out or System.err by a logger.(¡Ğƒïıÿÿÿÿ8º†Şğğ,
+\
+squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(°µ†üÿÿÿÿ8º†Şğğ,
+\
+squid:S106¦"9Replace this use of System.out or System.err by a logger.(œëıÊûÿÿÿÿ8º†Şğğ,
+\
+squid:S106¸"9Replace this use of System.out or System.err by a logger.(ß£õİÿÿÿÿÿ8º†Şğğ,
+V
+squid:S106i"9Replace this use of System.out or System.err by a logger.(š¸»×8º†Şğğ,
+V
+squid:S106¨"9Replace this use of System.out or System.err by a logger.(¶åÏa8º†Şğğ,
+V
+squid:S106S"9Replace this use of System.out or System.err by a logger.(ïñÆÃ8¸Î¤ñğ,
+Csquid:S3457J"%String contains no format specifiers.(İ†ïù8º†Şğğ,
+Isquid:S3457±"%String contains no format specifiers.(—È‹ƒøÿÿÿÿ8º†Şğğ,
+\
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(ÂÏƒäÿÿÿÿÿ8º†Şğğ,
+[
+squid:S106m"9Replace this use of System.out or System.err by a logger.(’»Ô‘øÿÿÿÿ8º†Şğğ,
+W
+squid:S106‘"9Replace this use of System.out or System.err by a logger.( Æô8º†Şğğ,
+W
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(±´œ¦8º†Şğğ,
+\
+squid:S106“"9Replace this use of System.out or System.err by a logger.(¯åÈİüÿÿÿÿ8º†Şğğ,
+V
+squid:S106="9Replace this use of System.out or System.err by a logger.(üÈÍê8º†Şğğ,
+[
+squid:S106E"9Replace this use of System.out or System.err by a logger.(‡äÌïüÿÿÿÿ8º†Şğğ,
+\
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(ÜúÕ“ûÿÿÿÿ8º†Şğğ,
+Dsquid:S3457¤"%String contains no format specifiers.(­àËñ8º†Şğğ,
+ksquid:S1192G"HDefine a constant instead of duplicating this literal "Conta: " 3 times.(’»Ô‘øÿÿÿÿ8º†Şğğ,
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(—±µÅ8º†Şğğ,
+W
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(­àËñ8º†Şğğ,
+V
+squid:S106³"9Replace this use of System.out or System.err by a logger.(¶åÏa8º†Şğğ,
+[
+squid:S106P"9Replace this use of System.out or System.err by a logger.(”˜Í¢ÿÿÿÿÿ8£ ¡ñğ,
+\
+squid:S106±"9Replace this use of System.out or System.err by a logger.(—È‹ƒøÿÿÿÿ8º†Şğğ,
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(„œŠ‰şÿÿÿÿ8º†Şğğ,
+[
+squid:S106X"9Replace this use of System.out or System.err by a logger.(Óû¿şıÿÿÿÿ8º†Şğğ,
+[
+squid:S106["9Replace this use of System.out or System.err by a logger.(‡äÌïüÿÿÿÿ8º†Şğğ,
+V
+squid:S106t"9Replace this use of System.out or System.err by a logger.(ÛÄÀ¯8º†Şğğ,
+\
+squid:S106¼"9Replace this use of System.out or System.err by a logger.(—È‹ƒøÿÿÿÿ8º†Şğğ,
+Csquid:S3457="%String contains no format specifiers.(üÈÍê8º†Şğğ,
+Csquid:S3457³"%String contains no format specifiers.(¶åÏa8º†Şğğ,
+U
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Ò½Ê8º†Şğğ,
+Isquid:S3457Ÿ"%String contains no format specifiers.(°µ†üÿÿÿÿ8º†Şğğ,
+Dsquid:S3457«"%String contains no format specifiers.(ñÒã©8º†Şğğ,
+fsquid:S1192J"HDefine a constant instead of duplicating this literal "Saldo: " 3 times.(İ†ïù8º†Şğğ,
+V
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(š¸»×8º†Şğğ,
+W
+squid:S106Ã"9Replace this use of System.out or System.err by a logger.(õèç¶8º†Şğğ,
+\
+squid:S106Î"9Replace this use of System.out or System.err by a logger.(ùŞ…áÿÿÿÿÿ8º†Şğğ,
+V
+squid:S106J"9Replace this use of System.out or System.err by a logger.(İ†ïù8º†Şğğ,
+[
+squid:S106B"9Replace this use of System.out or System.err by a logger.(Óû¿şıÿÿÿÿ8º†Şğğ,
+W
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(Ûªó´8º†Şğğ,
+V
+squid:S106d"9Replace this use of System.out or System.err by a logger.(ûÄ­ß8ÅÀ¦òğ,
+[
+squid:S106<"9Replace this use of System.out or System.err by a logger.(œÊä»ÿÿÿÿÿ8º†Şğğ,
+jsquid:S1192E"GDefine a constant instead of duplicating this literal "Nome: " 3 times.(‡äÌïüÿÿÿÿ8º†Şğğ,
+~squid:S1192B"[Define a constant instead of duplicating this literal "Insira os seguintes dados:" 3 times.(Óû¿şıÿÿÿÿ8º†Şğğ,
+V
+squid:S106p"9Replace this use of System.out or System.err by a logger.(«¡‰ˆ8º†Şğğ,
+dsquid:S1192C"FDefine a constant instead of duplicating this literal "CPF: " 3 times.(š¸»×8º†Şğğ,
+psquid:S3457«"Q%n should be used in place of \n to produce the platform-specific line separator.(ñÒã©8º†Şğğ,
+V
+squid:S106¾"9Replace this use of System.out or System.err by a logger.(¶åÏa8º†Şğğ,
+W
+squid:S106Ç"9Replace this use of System.out or System.err by a logger.(£¨Ù§8º†Şğğ,
+W
+squid:S106È"9Replace this use of System.out or System.err by a logger.(Óò¡Ú8º†Şğğ,
+\
+squid:S106Ë"9Replace this use of System.out or System.err by a logger.(ãş¾¿úÿÿÿÿ8º†Şğğ,
+V
+squid:S106`"9Replace this use of System.out or System.err by a logger.(«¡‰ˆ8º†Şğğ,
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(Çµí‘8º†Şğğ,
+Isquid:S3457¦"%String contains no format specifiers.(œëıÊûÿÿÿÿ8º†Şğğ,
+W
+squid:S106«"9Replace this use of System.out or System.err by a logger.(ñÒã©8º†Şğğ,
+Csquid:S34573"%String contains no format specifiers.(üÈÍê8º†Şğğ,
+Isquid:S3457­"%String contains no format specifiers.(ªˆùŠÿÿÿÿÿ8º†Şğğ,
+Csquid:S3457¾"%String contains no format specifiers.(¶åÏa8º†Şğğ,
+W
+squid:S106—"9Replace this use of System.out or System.err by a logger.(û´Ôø8º†Şğğ,
+Csquid:S3457¨"%String contains no format specifiers.(¶åÏa8º†Şğğ,
