@@ -46,7 +46,8 @@ public class AppBanco {
             +"7 - Sacar\n"
             +"8 - Depositar\n"
             +"9 - Listar Contas Cadastradas\n"
-            +"10 - Sair\n");
+            +"10 - Calcular lucro de Sua Conta Poupança\n"
+            +"0 - Sair\n");
 
             System.out.print("Digite a opção desejada: ");
             opcao = in.nextInt();
@@ -118,11 +119,11 @@ public class AppBanco {
                             if (random == 1) {
                                 limite = 1000.00;
                                 System.out.println("Conta Criada! Realizamos uma consulta pelo seu CPF e liberamos R$" + limite + " de limite.");
-                                gerenciadorContas.adicionarConta(new ContaEspecial(cpf,nomeCliente,numeroConta,saldo,limite,nomeGerente));
-                            }else {
+                                gerenciadorContas.adicionarConta(new ContaEspecial(cpf, nomeCliente, numeroConta, saldo, limite, nomeGerente));
+                            } else {
                                 System.out.printf("\nSua Conta foi criada porem no momento nao podemos liberar limite a sua conta.\n " +
-                                        "Favor entrar em contato com %s para mais informacoes.\n",nomeGerente);
-                                gerenciadorContas.adicionarConta(new ContaEspecial(cpf,nomeCliente,numeroConta,saldo,nomeGerente));
+                                        "Favor entrar em contato com %s para mais informacoes.\n", nomeGerente);
+                                gerenciadorContas.adicionarConta(new ContaEspecial(cpf, nomeCliente, numeroConta, saldo, nomeGerente));
                             }
                             break;
                         default:
@@ -200,12 +201,23 @@ public class AppBanco {
                     System.out.println(gerenciadorContas.listarContas());
                     break;
                 case 10:
+                    System.out.println("digite o numero de sua conta");
+                    Conta c = gerenciadorContas.buscarConta(in.nextInt());
+                    if(c instanceof ContaPoupanca){
+                        ((ContaPoupanca) c).calculaRendimento(0.5);
+                        System.out.println("seu novo saldo eh de: " + c.getSaldo());
+                    }
+                    else{
+                        System.out.println("sua conta não é poupança, portanto nao possui essa funçao ");
+                    }
+                    break;
+                case 0:
                     System.out.println("Programa Finalizado");
                     break;
                 default:
                     System.out.println("Opção Inválida");
                     break;
             }
-        }while (opcao!=10);
+        }while (opcao!=0);
     }
 }

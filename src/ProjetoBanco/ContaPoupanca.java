@@ -22,11 +22,12 @@ public class ContaPoupanca extends Conta {
 
     /**
      * Calcula rendimento mensal apartir da porcentagem e saldo em conta
-     * @param porcentagemRendimento int
-     * @return double
+     * @param porcentagemRendimento float
+     *
      */
-    public double calculaRendimento (float porcentagemRendimento){
-        return getSaldo() * (porcentagemRendimento/100);
+    public void calculaRendimento (double porcentagemRendimento){
+        super.depositar((getSaldo() * (porcentagemRendimento/100)));
+
     }
 
     /**
@@ -36,7 +37,6 @@ public class ContaPoupanca extends Conta {
 
     @Override
     public String toString() {
-        return super.toString() + "\nConsidenrando o saldo, o rendimento deste mês é: "
-                + calculaRendimento(0.5f);
+        return super.toString();
     }
 }
