@@ -27,7 +27,7 @@ public class AppBanco {
         int numeroConta;
         int numeroContaOrigem;
         int numeroContaDestino;
-        int random = r.nextInt(4);
+        int random = r.nextInt(8);
         int opcao;
         int opcao2;
 

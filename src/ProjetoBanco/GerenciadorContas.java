@@ -57,7 +57,6 @@ public class GerenciadorContas {
         for (Conta c : list) {
            if(c instanceof ContaEspecial){
                 sb.append(c)
-                        .append("\n")
                         .append("\n");
             }
         }return sb.toString();
@@ -73,7 +72,6 @@ public class GerenciadorContas {
             if(c instanceof ContaCorrente){
                 if(((ContaCorrente) c).usandoLimite()){
                     sb.append(c)
-                            .append("\n")
                             .append("\n");
                 }
             }
