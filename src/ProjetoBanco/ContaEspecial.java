@@ -1,16 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ProjetoBanco;
 
 /**
- * Classe Especial que herda de ContaCorrente
+ *    Projeto APS - APLICATIVO BANCÁRIO
+ *              Grupo JJLM
  * @author Jair Gudaites Junior - 21134258
- * @author Lucas Garcia Scapin - 21128904
  * @author Júlio Vinícius - 21085239
+ * @author Lucas Garcia Scapin - 21128904
  * @author Matheus Oliveira - 21073117
+ * Classe Especial que herda de ContaCorrente
  */
 
 public class ContaEspecial extends ContaCorrente {
@@ -18,7 +15,7 @@ public class ContaEspecial extends ContaCorrente {
     private String nomeGerente;
 
     /**
-     * Construtor sem a utilizacao do limite
+     * Construtor sem a utilização do limite
      * @param cpf String
      * @param nomeCliente String
      * @param numeroConta int
@@ -31,7 +28,7 @@ public class ContaEspecial extends ContaCorrente {
     }
 
     /**
-     * Construtor com a utilizacao do limite
+     * Construtor com a utilização do limite
      * @param cpf String
      * @param nomeCliente String
      * @param numeroConta int
@@ -45,7 +42,7 @@ public class ContaEspecial extends ContaCorrente {
     }
 
     /**
-     * Metodo get do nomeGerente
+     * Método get do nomeGerente
      * @return String
      */
     public String getNomeGerente() {
@@ -53,7 +50,7 @@ public class ContaEspecial extends ContaCorrente {
     }
 
     /**
-     * Metodo set do nomeGerente
+     * Método set do nomeGerente
      * @param nomeGerente String
      */
     public void setNomeGerente(String nomeGerente) {

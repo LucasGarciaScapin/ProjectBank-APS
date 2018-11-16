@@ -1,11 +1,13 @@
 package ProjetoBanco;
 
 /**
- * Classe ContaPoupanca que herda de Conta
+ *    Projeto APS - APLICATIVO BANCÁRIO
+ *              Grupo JJLM
  * @author Jair Gudaites Junior - 21134258
- * @author Lucas Garcia Scapin - 21128904
  * @author Júlio Vinícius - 21085239
+ * @author Lucas Garcia Scapin - 21128904
  * @author Matheus Oliveira - 21073117
+ * Classe ContaPoupanca que herda de Conta
  */
 
 public class ContaPoupanca extends Conta {
@@ -21,7 +23,7 @@ public class ContaPoupanca extends Conta {
     }
 
     /**
-     * Calcula rendimento mensal apartir da porcentagem e saldo em conta
+     * Calcula rendimento mensal a partir da porcentagem e saldo em conta
      * @param porcentagemRendimento float
      *
      */

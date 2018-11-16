@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 
 /**
- * Testes Unitarios de todos os metodos de GerenciarConta
+ * Testes Unitarios de todos os métodos de GerenciarConta
  * Para a realizacao dos testes foi utilizado a lib - JUnit 4.x
  * @author Lucas Garcia Scapin
  */

@@ -1,11 +1,13 @@
 package ProjetoBanco;
 
 /**
- * Classe Abstrata
+ *    Projeto APS - APLICATIVO BANCÁRIO
+ *              Grupo JJLM          
  * @author Jair Gudaites Junior - 21134258
- * @author Lucas Garcia Scapin - 21128904
  * @author Júlio Vinícius - 21085239
+ * @author Lucas Garcia Scapin - 21128904
  * @author Matheus Oliveira - 21073117
+ *            Classe Abstrata
  */
 
 public abstract class Conta {
@@ -16,7 +18,7 @@ public abstract class Conta {
     private double saldo;
 
     /** Construtor
-     * Com parametros cpf, nomeCliente, numeroConta, saldo */
+     * Com parâmetros cpf, nomeCliente, numeroConta, saldo */
 public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     this.cpf = cpf;
     this.nomeCliente = nomeCliente;
@@ -25,7 +27,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
 }
 
     /**
-     * Metodo get de numeroConta
+     * Método get de numeroConta
      * @return int
      */
     public int getNumeroConta() {
@@ -33,7 +35,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     }
 
     /**
-     * Metodo get de nomeCliente
+     * Método get de nomeCliente
      * @return String
      */
     public String getNomeCliente() {
@@ -41,7 +43,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     }
 
     /**
-     * Metodo get de cpf
+     * Método get de cpf
      * @return String
      */
     public String getCPF() {
@@ -49,7 +51,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     }
 
     /**
-     * Metodo get de saldo
+     * Método get de saldo
      * @return double
      */
     public double getSaldo() {
@@ -57,7 +59,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     }
 
     /**
-     * Metodo para realizar saque em conta.
+     * Método para realizar saque em conta.
      * @param valorSacado double
      * @return boolean
      */
@@ -71,7 +73,7 @@ public Conta (String cpf, String nomeCliente, int numeroConta, double saldo){
     }
 
     /**
-     * Metodo para realizar deposito em conta
+     * Método para realizar deposito em conta
      * @param valorDepositado double
      * @return boolean
      */

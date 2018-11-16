@@ -1,16 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ProjetoBanco;
 
 /**
- * Classe ContaCorrente que herda de Conta
+ *    Projeto APS - APLICATIVO BANCÁRIO
+ *              Grupo JJLM
  * @author Jair Gudaites Junior - 21134258
- * @author Lucas Garcia Scapin - 21128904
  * @author Júlio Vinícius - 21085239
+ * @author Lucas Garcia Scapin - 21128904
  * @author Matheus Oliveira - 21073117
+ * Classe ContaCorrente que herda de Conta
  */
 
 public class ContaCorrente extends Conta {
@@ -18,7 +15,7 @@ public class ContaCorrente extends Conta {
     private double limite;
 
     /**
-     * Construtor sem a utilizacao de limite
+     * Construtor sem a utilização de limite
      * @param cpf String
      * @param nomeCliente String
      * @param numeroConta int
@@ -29,7 +26,7 @@ public class ContaCorrente extends Conta {
     }
 
     /**
-     * Contrutor com a utilizacao de limite
+     * Contrutor com a utilização de limite
      * @param cpf String
      * @param nomeCliente String
      * @param numeroConta int
@@ -42,7 +39,7 @@ public class ContaCorrente extends Conta {
     }
 
     /**
-     * Metodo de verificacao se o cliente esta utilizando o limite
+     * Método de verificação se o cliente esta utilizando o limite
      * @return boolean
      */
     public boolean usandoLimite(){
@@ -50,7 +47,7 @@ public class ContaCorrente extends Conta {
     }
 
     /**
-     * Reescrita do metodo sacar com verificacao/utilizacao do limite
+     * Reescrita do método sacar com verificação/utilização do limite
      * @param valorSaca double
      * @return boolean
      */

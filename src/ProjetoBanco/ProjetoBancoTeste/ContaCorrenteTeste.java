@@ -7,8 +7,8 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Testes Unitarios de todos os metodos de ContaCorrente
- * Para a realizacao dos testes foi utilizado a lib - JUnit 4.x
+ * Testes unitários de todos os métodos de ContaCorrente
+ * Para a realização dos testes foi utilizado a lib - JUnit 4.x
  * @author Lucas Garcia Scapin
  */
 public class ContaCorrenteTeste {

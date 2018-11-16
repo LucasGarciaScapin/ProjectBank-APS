@@ -3,11 +3,13 @@ package ProjetoBanco;
 import java.util.ArrayList;
 
 /**
- * Classe utilizada para gerenciar contas
+ *    Projeto APS - APLICATIVO BANCÁRIO
+ *              Grupo JJLM
  * @author Jair Gudaites Junior - 21134258
- * @author Lucas Garcia Scapin - 21128904
  * @author Júlio Vinícius - 21085239
+ * @author Lucas Garcia Scapin - 21128904
  * @author Matheus Oliveira - 21073117
+ * Classe utilizada para gerenciar contas
  */
 
 public class GerenciadorContas {
@@ -22,7 +24,7 @@ public class GerenciadorContas {
     }
 
     /**
-     * Metodo get da lista para execucao de testes unitarios
+     * Método get da lista para execução de testes unitarios
      * @return ArrayList<Conta>
      */
     public ArrayList<Conta> getList() {
@@ -38,7 +40,7 @@ public class GerenciadorContas {
     }
 
     /**
-     * Remove Conta da lista apartir do numero da mesma
+     * Remove Conta da lista a partir do número da mesma
      * @param numeroConta int
      * @return boolean
      */
@@ -47,7 +49,7 @@ public class GerenciadorContas {
     }
 
     /**
-     * Busca apenas as contas que sao do tipo Especial
+     * Busca apenas as contas que são do tipo Especial
      * @return String
      */
     public String buscarContasEpeciais(){
@@ -62,7 +64,7 @@ public class GerenciadorContas {
     }
 
     /**
-     * Busca apenas os clientes que estao utilizando o limite
+     * Busca apenas os clientes que estão utilizando o limite
      * @return String
      */
         public String buscarClientesUsandoLimite(){
