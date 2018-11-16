@@ -42,14 +42,14 @@ public class GerenciadorContasTeste {
         gc.adicionarConta(cc);
         gc.adicionarConta(ce);
         gc.adicionarConta(cp);
-        assertEquals("Retorno de iguais",ce + "\n",gc.buscarContasEpeciais());
+        assertEquals("Retorno de iguais",ce + "\n" + "\n",gc.buscarContasEpeciais());
     }
 
     @Test
     public void testeBuscarClientesUsandoLimite(){
         gc.adicionarConta(cc);
         cc.sacar(11000);
-        assertEquals("Retorno de iguais", cc + "\n", gc.buscarClientesUsandoLimite());
+        assertEquals("Retorno de iguais", cc + "\n" + "\n", gc.buscarClientesUsandoLimite());
     }
 
     @Test

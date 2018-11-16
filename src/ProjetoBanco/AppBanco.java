@@ -30,7 +30,7 @@ public class AppBanco {
         double limite;
         int numeroContaOrigem;
         int numeroContaDestino;
-        int random = r.nextInt(2);
+        int random = r.nextInt(4);
         int opcao;
         int opcao2;
 
@@ -76,7 +76,7 @@ public class AppBanco {
                             saldo = in.nextDouble();
                             in.nextLine();
 
-                            if (random == 1) {
+                            if (random != 1) {
                                 limite = 1000;
                                 System.out.println("Realizamos uma consulta pelo seu CPF e liberamos R$" + limite + " de limite.");
                                 gerenciadorContas.adicionarConta(new ContaCorrente(cpf, nomeCliente, numeroConta, saldo, limite));
@@ -116,7 +116,7 @@ public class AppBanco {
 
                             System.out.print("Nome Gerente: ");
                             nomeGerente = in.nextLine();
-                            if (random == 1) {
+                            if (random != 1) {
                                 limite = 1000.00;
                                 System.out.println("Conta Criada! Realizamos uma consulta pelo seu CPF e liberamos R$" + limite + " de limite.");
                                 gerenciadorContas.adicionarConta(new ContaEspecial(cpf, nomeCliente, numeroConta, saldo, limite, nomeGerente));

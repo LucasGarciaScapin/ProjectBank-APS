@@ -1,9 +1,6 @@
 package ProjetoBanco;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
 
 /**
  * Classe utilizada para gerenciar contas

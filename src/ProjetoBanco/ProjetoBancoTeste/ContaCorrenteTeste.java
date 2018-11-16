@@ -19,7 +19,6 @@ public class ContaCorrenteTeste {
     @Test
     public void testeUsandoLimite(){
 
-        // Teste Unitario - UsandoLimite()
         c1.sacar(6000);
         assertTrue(c1.usandoLimite());
 
